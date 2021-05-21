@@ -8,6 +8,7 @@ import {
   FormGroup,
   Collapse,
   Navbar,
+
   Nav,
   NavItem,
   NavLink,
@@ -92,7 +93,7 @@ export default class Navigation extends Component {
             </ModalFooter>
         </Modal>
         <Navbar color="light" light expand="md">
-          <img className="navbar-brand-img" src={logo} style={{width: 100, marginTop: -7}}/>
+          <img className="navbar-brand-img" src={logo} />
           <Collapse isOpen={this.isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
